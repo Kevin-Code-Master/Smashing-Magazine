@@ -10,6 +10,7 @@
 	height: auto;
 	display: flex;
 	flex-direction: column;
+	background-color: #f6f3f2;
 }
 /*header*/
 header{
@@ -281,10 +282,204 @@ header li:hover{
 }
 /*guide section*/
 #guides{
-	width: 100%;
-	height: 800px;
+	width: 80%;
+	height: 1200px;
 	display: grid;
-	grid-template-rows: 400px 500px;
+	grid-template-rows: 500px 700px;
 	grid-template-columns: 50% 50%;
 	grid-gap: 20px;
+	margin: 50px auto;
+}
+/*guides articles*/
+#js,#css,#performance,#newsletter{
+	background-color: rgb(214, 207, 207);
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	border-radius: 10px;
+	box-shadow: 0 5px 15px rgb(148, 147, 147);
+}
+#js-title{
+	background-color: #19a972;
+	width: 80%;
+	margin: auto;
+	height: 60px;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 15px;
+}
+#css-title{
+	background-color: rgba(243, 48, 34, 0.815);
+	width: 50%;
+	margin: auto;
+	height: 60px;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 15px;
+	color: white;
+}
+#performance-title{
+	background-color: #aa1994;
+	width: 50%;
+	margin: auto;
+	height: 60px;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 15px;
+	color: white;
+}
+#js p, #js h1, #css p, #performance p{
+	margin: 20px 40px;
+}
+#css h1{
+	margin: 20px 40px;
+	color: red;
+	border-bottom: 1px solid red;
+}
+#performance h1{
+	margin: 20px 40px;
+	color: #aa1994;
+	border-bottom: 1px solid #aa1994;
+}
+#js p, #css p, #performance p{
+	font-size: 20.1434px;
+	color: #333333;
+	vertical-align: baseline;
+	font-weight: 400;
+	font-family: sans-serif;
+}
+#js a, #css a{
+	text-decoration: none;
+	color: #19a972;
+	font-size:28px;
+	line-height:52.6272px;
+	font-weight: 700;
+	font-family: sans-serif;
+}
+#js-title a{
+	color: #ffffff;
+	font-family: "Times New Roman";
+	font-size: 23.5584px;
+	line-height: 27.0921px;
+	font-weight:700;
+	text-decoration: none;
+	padding:17.6688px 23.5584px;
+}
+#performance a{
+	color: purple;
+	font-family: "Times New Roman";
+	font-size: 23.5584px;
+	line-height: 27.0921px;
+	font-weight:700;
+	text-decoration: none;
+	padding:17.6688px;
+}
+#performance-title a{
+	color: white;
+	font-family: "Times New Roman";
+	font-size: 23.5584px;
+	line-height: 27.0921px;
+	font-weight:700;
+	text-decoration: none;
+	padding:17.6688px 23.5584px;
+}
+#css{
+	background-color: rgb(214, 207, 207);
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	border-radius: 10px;
+	box-shadow: 0 5px 15px rgb(148, 147, 147);
+}
+#css a{
+	color: white;
+	font-size: 23px;
+}
+#img-background{
+	width: 100%;
+	height: 300px;
+	border-radius: 10px;
+	background-image: url("./Assets/background.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#newsletter{
+	background-color: #1b71bb;
+	display: flex;
+	flex-direction: column;
+}
+#newsletter h1{
+	margin: 20px 40px;
+	color: white;
+	font-size: 40px;
+
+}
+#newsletter a{
+	color: white;
+	font-family: Tahoma;
+	text-align: center;
+}
+#newsletter p{
+	margin: 5px 10px;
+	font-family: Tahoma;
+	font-size: 20px;
+	color: white;
+}
+#newsletter-form{
+	width: 80%;
+	height: 60px;
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+#email{
+	width: 60%;
+	height: inherit;
+	border-bottom-left-radius: 10px;
+	border-top-left-radius: 10px;
+	outline: none;
+	border: none;
+	text-align: left;
+	padding-left: 30px;
+	font-style: italic;
+	font-size: 25px;
+	font-family: monospace;
+}
+#submit{
+	width: 30%;
+	height: inherit;
+	border-bottom-right-radius: 10px;
+	border-top-right-radius: 10px;
+	outline: none;
+	border: none;
+	font-weight: 700;
+	font-family: monospace;
+	font-size: 30px;
+	background-color: #067dd8f1;
+	color: white;
+}
+#submit:hover{
+	cursor: pointer;
+}
+#front-end{
+	width: 60%;
+	height: 70px;
+	margin: auto;
+	background-color: #0168b8;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 10px;
+}
+#front-end p{
+	font-size: 16px;
 }
